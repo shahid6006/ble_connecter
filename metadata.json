@@ -1,0 +1,6 @@
+{
+  "name": "Library Bluetooth Manager",
+  "description": "Mobile-first PWA helping students manage Bluetooth audio devices, verify connections, troubleshoot library interference, and reconnect.",
+  "requestFramePermissions": ["bluetooth"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

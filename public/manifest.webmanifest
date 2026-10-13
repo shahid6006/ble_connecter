@@ -1,0 +1,55 @@
+{
+  "id": "/",
+  "name": "Library Bluetooth Manager",
+  "short_name": "LibBT Mgr",
+  "description": "Mobile-first PWA helping students manage Bluetooth audio devices, verify connections, troubleshoot library interference, and reconnect.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#020617",
+  "theme_color": "#0b1120",
+  "categories": ["utilities", "productivity", "education"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Audio Routing Check",
+      "short_name": "Sound Check",
+      "description": "Perform silent/auditory verification of connected earbuds",
+      "url": "/#monitor",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Library Troubleshooter",
+      "short_name": "Troubleshoot",
+      "description": "Fix earbud connection to wrong dorm or friend laptop",
+      "url": "/#troubleshoot",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
